@@ -1,17 +1,17 @@
 /* ========== IMPORT / FONTS / COLORS ========== */
+
     @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Elite&display=swap');
 
 
-    #fonts{
+    /* 
         font-family: 'Exo', sans-serif;
         font-family: 'Special Elite', cursive;
-    }
-
-    #colors{
+  
         color: #000, #fff;
-    }
+    */
 
 /* ========== GENERAL ========== */
+
     *{
         padding: 0;
         margin: 0;
@@ -20,17 +20,221 @@
 
     html{
         font-size: 16px;
-        background-color: gray;
+        font-family: 'Special Elite', cursive;
+        font-weight: 700;
+        background-color: #000;
     }
 
-/* ========== IMPORT / FONTS / COLORS ========== */
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Exo', sans-serif;
+        font-weight: 800;
+    }
 
-/* ========== IMPORT / FONTS / COLORS ========== */
+    h2{
+        font-size: 4rem;
+        padding-bottom: 1rem;
+    }
 
-/* ========== IMPORT / FONTS / COLORS ========== */
+    h3{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
 
-/* ========== IMPORT / FONTS / COLORS ========== */
+    h4{
+        padding-bottom: 0.5rem;
+    }
 
-/* ========== IMPORT / FONTS / COLORS ========== */
+    h5{
+        font-size: 1.5rem;
+        padding: 0.4rem;
+    }
 
-/* ========== IMPORT / FONTS / COLORS ========== */
+/* ========== Nav ========== */
+
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        text-align: right;
+    }
+
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        padding: 1.8rem 0.8rem;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+    }
+
+/* ========== HEADER ========== */
+
+    header{
+        margin-top: -5.2rem;
+        background: no-repeat url("../img/bg.jpeg");
+        background-size: 100vw;
+    }
+
+    header img{
+        padding: 23.2rem 0 10.3rem;
+    }
+
+/* ========== SECTION GENERAL ========== */
+
+    section{
+        margin-top: 30rem;
+    }
+
+    section p{
+        font-size: 21px;
+        line-height: 1.4rem;
+    }
+
+    section a{
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        padding: 0.2rem;
+        margin: 0.3rem 0;
+        border: 2px solid rgba(87, 86, 86, 0.58);
+    }
+
+    section a:hover{
+        border: 2px solid #000;
+    }
+
+/* ========== SECTION HELLO ========== */
+
+    #hello{
+        background: no-repeat url("../img/beans_icon.png");
+        background-size: 100vw;
+        background-position-y: -430px;
+        padding: 7rem;
+        background-color: #fff;
+    }
+
+    #hello p{
+        max-width: 570px;
+    }
+
+/* ========== SECTION OUR MENU ========== */
+
+    #ourmenu{
+        background: no-repeat url("../img/cake_icon.png");
+        background-size: 63vw;
+        text-align: center;
+        padding: 3rem 0;
+        background-color: #fff;
+    }
+
+    #ourmenu img{
+        max-width: 80px;
+    }
+
+    #ourmenu article{
+        max-width: 400px;
+        border: 1px solid #000;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    #ourmenu p{
+        font-size: 1.1rem;
+    }
+
+/* ========== SECTION OUR STORY ========== */
+
+    #ourstory{
+        padding: 7rem 5vw 7rem 20vw;
+        background-color: #fff;
+    }
+
+    #ourstory p{
+        display: inline-block;
+        max-width: 360px;
+        font-size: 1.1rem;
+    }
+
+    #ourstory img{
+        max-width: 350px;
+        padding: 5% 5% 0;
+    }
+
+/* ========== SECTION CATERING SERVICES ========== */
+
+    #cateringservices{
+        background: no-repeat url("../img/pie_icon.png");
+        background-size: 500px;
+        background-position: right;
+        padding: 7rem 5vw 7rem 20vw;
+        background-color: #fff;
+    }
+
+    #cateringservices p{
+        display: inline-block;
+        max-width: 360px;
+        font-size: 1.1rem;
+    }
+
+    #cateringservices img{
+        max-width: 350px;
+        padding: 5% 5% 0;
+    }
+
+    #cateringservices div{
+        display: inline-block;
+    }
+
+/* ========== SECTION OUR CAKES ========== */
+
+    #ourcakes{
+        background: no-repeat url("../img/muffin_icon.png");
+        background-size: 400px;
+        padding: 7rem 5vw 7rem 20vw;
+        background-color: #fff;
+    }
+
+    #ourcakes p{
+        display: inline-block;
+        max-width: 360px;
+        font-size: 1.1rem;
+    }
+
+    #ourcakes img{
+        max-width: 450px;
+        padding: 5% 5% 0;
+    }
+
+    #ourcakes div{
+        display: inline-block;
+    }
+
+/* ========== FOOTER ========== */
+
+footer {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer p{
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+}
+
+footer a:not(:nth-of-type(3)) img{
+    display: block;
+    width: 25px;
+    margin: 0.4rem auto;
+}
+
+footer a:nth-of-type(3) img{
+    display: block;
+    width: 100px;
+    margin: 0.4rem auto;
+}
