@@ -133,7 +133,7 @@
             padding: 7rem 1rem;
         }
         #hello p{
-            width: 450px;
+            width: 400px;
         }
     }
 
@@ -149,7 +149,7 @@
         background: no-repeat url("../img/cake_icon.png");
         background-size: 900px;
         text-align: center;
-        padding: 4rem 0;
+        padding: 2rem 0;
         background-color: #fff;
         height: 900px;
     }
@@ -202,7 +202,7 @@
     }
 
     #ourstory article{
-        padding: 5rem;
+        padding: 5rem 1rem;
         background-color: #fff;
         text-align: center;
         height: 600px;
@@ -220,7 +220,7 @@
         background: no-repeat url("../img/pie_icon.png");
         background-size: 500px;
         background-position: right;
-        padding: 5rem;
+        padding: 5rem 1rem;
         background-color: #fff;
         text-align: center;
         height: 500px;
@@ -233,7 +233,7 @@
     #ourcakes{
         background: no-repeat url("../img/muffin_icon.png");
         background-size: 400px;
-        padding: 5rem;
+        padding: 5rem 1rem;
         background-color: #fff;
         text-align: center;
     }
@@ -247,19 +247,19 @@ footer {
     padding: 1.5rem;
 }
 
+footer ul{
+    list-style: none;
+}
+
 footer p{
     line-height: 1.2rem;
     font-size: 1.1rem;
 }
 
-footer a:not(:nth-of-type(3)) img{
-    display: block;
-    width: 25px;
-    margin: 0.4rem auto;
+footer li:not(:nth-of-type(3)) a img{
+    width: 20px;
 }
 
-footer a:nth-of-type(3) img{
-    display: block;
+footer li:nth-of-type(3) a img{
     width: 100px;
-    margin: 0.4rem auto;
 }
