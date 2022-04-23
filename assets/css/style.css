@@ -149,7 +149,7 @@
         background: no-repeat url("../img/cake_icon.png");
         background-size: 900px;
         text-align: center;
-        padding: 2rem 0;
+        padding: 4rem 0;
         background-color: #fff;
         height: 900px;
     }
@@ -161,7 +161,7 @@
     #ourmenu article{
         max-width: 400px;
         border: 1px solid #000;
-        padding: 1rem;
+        padding: 0.5rem;
         margin: 1rem auto;
     }
 
