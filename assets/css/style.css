@@ -93,7 +93,7 @@
         line-height: 1.4rem;
     }
 
-    section a{
+    section:not(:nth-of-type(2)) a{
         display: inline-block;
         text-decoration: none;
         color: #000;
@@ -103,7 +103,7 @@
     }
 
     section a:hover{
-        border: 2px solid #000;
+        text-decoration: underline;
     }
 
 /* ========== SECTION HELLO ========== */
@@ -167,6 +167,15 @@
 
     #ourmenu p{
         font-size: 1.1rem;
+    }
+
+    #ourmenu a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    #ourmenu a:hover{
+        text-decoration: underline;
     }
 
 /* ========== SECTION OUR STORY + CATERING SERVICES + OUR CAKES ========== */
